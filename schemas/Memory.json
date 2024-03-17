@@ -1,0 +1,27 @@
+{
+  "class": "Memory",
+  "vectorizer": "text2vec-openai",
+  "moduleConfig": {
+    "text2vec-openai": {
+      "model": "text-embedding-3-small"
+    }
+  },
+  "properties": [
+    {
+      "dataType": ["string"],
+      "name": "chunk"
+    },
+    {
+      "dataType": ["string"],
+      "name": "uuid"
+    },
+    {
+      "dataType": ["string"],
+      "name": "context"
+    },
+    {
+      "dataType": ["text[]"],
+      "name": "keywords"
+    }
+  ]
+}
